@@ -187,7 +187,7 @@ a {
 padding: 30px 20px;
 background: #fff;
 }
-.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.github {
+.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.codepen {
 	transition: all 0.5s ease-out;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -208,8 +208,7 @@ background: #fff;
     color: #fff;
     padding: 14px 10px;
     float: left;
-    font-size: 17px;
-    width: 61%;
+    font-size: 1.2em;
     border-left: 1px solid rgb(212, 118, 32);
 }
 /*-----fb-----*/
@@ -222,7 +221,7 @@ background: #fff;
 .fb:hover {
 background:#315997;
 }
-.sc a span,.fb a span,.tumblr a span,.email a span,.google a span,.twitter a span,.github a span {
+.sc a span,.fb a span,.tumblr a span,.email a span,.google a span,.twitter a span,.codepen a span {
 	height: 45px;
     	width: 45px;
 	font-size: 2em;
@@ -234,11 +233,10 @@ background:#315997;
 }
 .fb lable{
 	color: #fff;
-	padding: 14px 10px;
-	float: left;
-	font-size: 17px;
-	width: 61%;
-	border-left: 1px solid rgba(39, 74, 153, 0.29);
+        padding: 14px 10px;
+        float: left;
+        font-size: 1.2em;
+        border-left: 1px solid rgba(39, 74, 153, 0.29);
 }
 .fb:hover{
 	background:#335FA4;
@@ -250,23 +248,21 @@ background:#315997;
 }
 .tumblr lable{
 	color: #fff;
-	padding: 14px 10px;
-	float: left;
-	font-size: 17px;
-	width: 61%;
-	border-left: 1px solid rgba(143, 174, 201, 0.74);
+        padding: 14px 10px;
+        float: left;
+        font-size: 1.2em;
+        border-left: 1px solid rgba(143, 174, 201, 0.74);
 }
 .tumblr:hover{
 	background:#8098ae;
 }
 /*--google-------*/
 .google lable{
-border-left: 1px solid rgba(155, 38, 23, 0.46);
-color: #fff;
-	padding: 14px 10px;
-	float: left;
-	font-size: 17px;
-	width: 61%;
+    border-left: 1px solid rgba(155, 38, 23, 0.46);
+    color: #fff;
+    padding: 14px 10px;
+    float: left;
+    font-size: 1.2em;
 }
 .google{
 	background: #cf4332;
@@ -278,11 +274,10 @@ color: #fff;
 /*--twitter-----*/
 .twitter lable{
 	border-left: 1px solid rgba(33, 174, 221, 0.38);
-	color: #fff;
-	padding: 14px 10px;
-	float: left;
-	font-size: 17px;
-	width: 61%;
+        color: #fff;
+        padding: 14px 10px;
+        float: left;
+        font-size: 1.2em;
 }
 .twitter{
 	background: #33ccff;
@@ -301,27 +296,25 @@ color: #fff;
 }
 .email lable{
 	color: #fff;
-	padding: 14px 10px;
-	float: left;
-	font-size: 17px;
-	width: 61%;
-	border-left: 1px solid rgba(39, 74, 153, 0.29);
+        padding: 14px 10px;
+        float: left;
+        font-size: 1.2em;
+        border-left: 1px solid rgba(39, 74, 153, 0.29);
 }
-/*-----github-------*/
-.github{
+/*-----codepen-------*/
+.codepen{
 	background: #545454;
 	margin: 30px 0;
 }
-.github:hover{
+.codepen:hover{
 	background: #454444;
 }
-.github lable {
-border-left: 1px solid rgba(76, 74, 74, 1);
-color: #fff;
-	padding: 14px 10px;
-	float: left;
-	font-size: 17px;
-	width: 61%;
+.codepen lable {
+    border-left: 1px solid rgba(76, 74, 74, 1);
+    color: #fff;
+    padding: 14px 10px;
+    float: left;
+    font-size: 1.2em;
 }
 /****************/
 .copy-right {
@@ -364,7 +357,8 @@ color: #fff;
 	width: 86%;
 	margin: 5% auto;
 	}
-	.fb lable,.linkedin lable,.tumblr lable,.space lable,.delicious lable,.email lable,.twitter lable,.google lable,.flicker lable,.github lable{
+	.fb lable,.linkedin lable,.tumblr lable,.space lable,.delicious lable,.email lable,.twitter lable,.google lable,.flicker lable,.
+	lable{
 
 		font-size: 16px;
 	}
@@ -385,7 +379,7 @@ color: #fff;
 	width: 81%;
 	margin: 0 auto;
 	}
-	.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.github {
+	.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.codepen {
 		margin: 10px 0;
 	}
 	.copy-right p {
@@ -403,7 +397,7 @@ color: #fff;
 		font-size: 1.3em;
 	padding: 1em 0em;
 	}
-	.fb lable, .linkedin lable, .tumblr lable, .space lable, .delicious lable, .email lable, .google lable, .twitter lable, .flicker lable, .github lable {
+	.fb lable, .linkedin lable, .tumblr lable, .space lable, .delicious lable, .email lable, .google lable, .twitter lable, .flicker lable, .codepen lable {
 	padding: 14px 10px;
 	font-size: 15px;
 	}
