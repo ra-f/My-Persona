@@ -187,16 +187,6 @@ a {
 padding: 30px 20px;
 background: #fff;
 }
-.inner-content {
-	width:49%;
-	margin:5% auto ;text-align: center;
-}
-.inner-content h1{
-	font-size: 2em;
-	color: #fff;
-	background: url(https://preview.w3layouts.com/demos/flat-social-media-icons/web/images/bg-top.png) no-repeat 0px 0px;
-	padding: 1.1em 0em;
-}
 .fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.github {
 	transition: all 0.5s ease-out;
 	-webkit-transition: all 0.3s ease-out;
@@ -214,6 +204,14 @@ background: #fff;
 .sc:hover {
     background: #d2742c;
 }
+.sc lable {
+    color: #fff;
+    padding: 14px 10px;
+    float: left;
+    font-size: 17px;
+    width: 61%;
+    border-left: 1px solid rgb(212, 118, 32);
+}
 /*-----fb-----*/
 .fb{
 	background: #3c66c4;
@@ -225,9 +223,11 @@ background: #fff;
 background:#315997;
 }
 .sc a span,.fb a span,.tumblr a span,.email a span,.google a span,.twitter a span,.github a span {
-	background: url(https://preview.w3layouts.com/demos/flat-social-media-icons/web/images/icons.png) no-repeat 9px 5px;
 	height: 45px;
-    width: 45px;
+    	width: 45px;
+	font-size: 2em;
+	padding-top: 7px;
+	color: white;
 	display: inline-block;
 	float: left;
 	margin: 3px 0px 0px 2px;
@@ -259,9 +259,6 @@ background:#315997;
 .tumblr:hover{
 	background:#8098ae;
 }
-.tumblr a span {
-	background: url(https://preview.w3layouts.com/demos/flat-social-media-icons/web/images/icons.png) no-repeat 8px -90px;
-}
 /*--google-------*/
 .google lable{
 border-left: 1px solid rgba(155, 38, 23, 0.46);
@@ -274,10 +271,6 @@ color: #fff;
 .google{
 	background: #cf4332;
 	margin: 30px 0;
-}
-.google a span{
-	background: url(https://preview.w3layouts.com/demos/flat-social-media-icons/web/images/icons.png) no-repeat -34px -31px;
-background-size: 255%;
 }
 .google:hover{
 	background: #bb3828;
@@ -295,9 +288,6 @@ background-size: 255%;
 	background: #33ccff;
 	margin: 30px 0;
 }
-.twitter a span{
-	background: url(https://preview.w3layouts.com/demos/flat-social-media-icons/web/images/icons.png) no-repeat -48px -139px;
-}
 .twitter:hover{
 	background: #29A6D0;
 }
@@ -308,10 +298,6 @@ background-size: 255%;
 }
 .email:hover{
 	background:#376A8A;
-}
-.email a span {
-background: url(https://preview.w3layouts.com/demos/flat-social-media-icons/web/images/icons.png) no-repeat -38px -74px;
-background-size: 259%;
 }
 .email lable{
 	color: #fff;
@@ -325,9 +311,6 @@ background-size: 259%;
 .github{
 	background: #545454;
 	margin: 30px 0;
-}
-.github a span{
-	background: url(https://preview.w3layouts.com/demos/flat-social-media-icons/web/images/icons.png) no-repeat -102px -46px;
 }
 .github:hover{
 	background: #454444;
