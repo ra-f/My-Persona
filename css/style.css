@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: rgb(7, 21, 35);
+  background: #545658;
   font: 400 1em/1.5em 'Raleway', sans-serif;
   margin: 0;
 }
@@ -60,16 +60,13 @@ a {
     float: left;
 }
 .profile-card h1 {
-  color: #000;
-  font-size: 2em;
-  line-height: 1.2em;
-  margin: 0;
-  text-transform: uppercase;
+    color: #545658;
+    font-size: 1.4em;
+    margin: 0;
 }
 .profile-card h2 {
-  font-size: 1.25em;
-  line-height: 1.2em;
-  margin: 0 0 4em 0;
+    font-size: .75em;
+    line-height: .1em;
 }
 .profile-card .btn {
   border: 1px solid #ddd;
