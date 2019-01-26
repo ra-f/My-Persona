@@ -187,7 +187,7 @@ a {
 padding: 30px 20px;
 background: #fff;
 }
-.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.codepen {
+.sc,.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.codepen {
 	transition: all 0.5s ease-out;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
