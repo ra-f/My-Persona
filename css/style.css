@@ -187,29 +187,46 @@ a {
 padding: 30px 20px;
 background: #fff;
 }
-.sc,.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.codepen {
+.sc,.fb,.space,.linkedin,.tumblr,.delicious,.email,.instagram,.twitter,.flicker,.codepen {
 	transition: all 0.5s ease-out;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 }
+/*-----bandcamp-----*/
+.bandcamp {
+    background: #629aa9;
+    border: none;
+    outline: none;
+    margin: 10px 0 30px 0;
+}
+.bandcamp:hover {
+    background: #66a4b5;
+}
+.bandcamp lable {
+    color: #fff;
+    padding: 14px 10px;
+    float: left;
+    font-size: 1.2em;
+    border-left: 1px solid rgb(87, 140, 154);
+}
 /*-----sc-----*/
 .sc {
-    background: #e67e2e;
+    background: #ff8800;
     border: none;
     outline: none;
     margin: 10px 0 30px 0;
 }
 .sc:hover {
-    background: #d2742c;
+    background: #f79628;
 }
 .sc lable {
     color: #fff;
     padding: 14px 10px;
     float: left;
     font-size: 1.2em;
-    border-left: 1px solid rgb(212, 118, 32);
+    border-left: 1px solid rgb(230, 126, 6);
 }
 /*-----fb-----*/
 .fb{
@@ -221,7 +238,7 @@ background: #fff;
 .fb:hover {
 background:#315997;
 }
-.sc a span,.fb a span,.tumblr a span,.email a span,.google a span,.twitter a span,.codepen a span {
+.bandcamp a span,.sc a span,.fb a span,.tumblr a span,.email a span,.instagram a span,.twitter a span,.codepen a span {
 	height: 45px;
     	width: 45px;
 	font-size: 2em;
@@ -256,19 +273,19 @@ background:#315997;
 .tumblr:hover{
 	background:#8098ae;
 }
-/*--google-------*/
-.google lable{
+/*--instagram-------*/
+.instagram lable{
     border-left: 1px solid rgba(155, 38, 23, 0.46);
     color: #fff;
     padding: 14px 10px;
     float: left;
     font-size: 1.2em;
 }
-.google{
+.instagram{
 	background: #cf4332;
 	margin: 30px 0;
 }
-.google:hover{
+.instagram:hover{
 	background: #bb3828;
 }
 /*--twitter-----*/
@@ -357,7 +374,7 @@ background:#315997;
 	width: 86%;
 	margin: 5% auto;
 	}
-	.fb lable,.linkedin lable,.tumblr lable,.space lable,.delicious lable,.email lable,.twitter lable,.google lable,.flicker lable,.
+	.fb lable,.linkedin lable,.tumblr lable,.space lable,.delicious lable,.email lable,.twitter lable,.instagram lable,.flicker lable,.
 	lable{
 
 		font-size: 16px;
@@ -366,7 +383,6 @@ background:#315997;
 @media (max-width:640px){
 	.left-icons,.right-icons  {
 	float: none;
-	width: 73%;
 	margin: 0 auto;
 	}
 	.inner-content h1 {
@@ -376,42 +392,14 @@ background:#315997;
 @media (max-width:480px){
 	.left-icons, .right-icons {
 	float: none;
-	width: 81%;
 	margin: 0 auto;
 	}
-	.fb,.space,.linkedin,.tumblr,.delicious,.email,.google,.twitter,.flicker,.codepen {
+	.fb,.space,.linkedin,.tumblr,.delicious,.email,.instagram,.twitter,.flicker,.codepen {
 		margin: 10px 0;
 	}
 	.copy-right p {
 	font-size: 1em;
 	line-height: 1.4em;
-	}
-}
-@media (max-width:320px){
-	.left-icons, .right-icons {
-	float: none;
-	width: 81%;
-	margin: 0 auto;
-	}
-	.inner-content h1 {
-		font-size: 1.3em;
-	padding: 1em 0em;
-	}
-	.fb lable, .linkedin lable, .tumblr lable, .space lable, .delicious lable, .email lable, .google lable, .twitter lable, .flicker lable, .codepen lable {
-	padding: 14px 10px;
-	font-size: 15px;
-	}
-	.inner-content {
-	width: 97%;
-	margin: 5% auto;
-	}
-	.left-icons, .right-icons {
-	float: none;
-	width: 97%;
-	margin: 0 auto;
-	}
-	.icons-section {
-	padding: 10px 12px;
 	}
 }
 
