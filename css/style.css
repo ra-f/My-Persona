@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  background: rgb(7, 21, 35);
   font: 400 1em/1.5em 'Raleway', sans-serif;
   margin: 0;
 }
@@ -56,10 +57,9 @@ a {
   color: #555;
 }
 .profile-card img {
-  border: 3px solid #ddd;
-  border-radius: 50%;
-  background-clip: padding-box;
-  margin: 5em 0;
+    max-height: 160px;
+    min-height: 90px;
+    float: left;
 }
 .profile-card h1 {
   color: #000;
@@ -102,4 +102,14 @@ a {
 }
 .profile-card .social .fa-linkedin:hover {
   color: #0976b4;
+}
+.header-card {
+    display: inline-block;
+    padding: 3em;
+    width: 100%;
+}
+.header-title {
+    text-align: left;
+    margin-top: 78px;
+    float: right;
 }
