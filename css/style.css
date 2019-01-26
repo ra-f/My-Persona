@@ -133,6 +133,7 @@ a {
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   pointer-events: none;
+  transition: 200ms ease-in-out;
 }
 
 /* Position tooltip above the element */
@@ -154,6 +155,7 @@ a {
   text-align: center;
   font-size: 14px;
   line-height: 1.2;
+  transition: 200ms ease-in-out;
 }
 
 /* Triangle hack to make tooltip look like a speech bubble */
