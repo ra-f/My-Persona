@@ -39,19 +39,17 @@ a {
 
 /*---------- PROFILE_CARD ----------*/
 .profile-card {
-  background-color: #fff;
-  bottom: 0;
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  color: #555;
-  height: 39em;
-  left: 0;
-  margin: auto;
-  max-width: 32em;
-  position: fixed;
-  right: 0;
-  text-align: center;
-  top: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #555;
+    left: 0;
+    margin: auto;
+    max-width: 32em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 80px;
 }
 .profile-card a {
   color: #555;
